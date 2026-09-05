@@ -1,34 +1,32 @@
-# Miles Project Instructions
+# Project Instructions
 
-## Project Overview
+This project is a small React learning project.
 
-Miles is an AI-powered travel planning application.
+## Technology
 
-## Frontend
+- Use React.
+- Use TypeScript.
+- Use React Router.
+- Use plain CSS.
 
-- Use React with TypeScript.
-- Reuse existing components before creating new ones.
-- Keep the current UI design unchanged unless explicitly requested.
-- Maintain responsive behavior on desktop, tablet, and mobile.
-- Follow the existing folder structure.
+## Project Structure
 
-## Backend
+- Pages must go inside `frontend/src/pages`.
+- Reusable components must go inside `frontend/src/components`.
+- Do not put large components directly inside `frontend/src/App.tsx`.
 
-- Use FastAPI.
-- Keep routers, services, schemas, and models separated.
-- Use async functions when appropriate.
-- Reuse existing API endpoints when possible.
+## UI Rules
 
-## API
+- Keep the UI simple.
+- Use a clean layout.
+- Make all pages responsive.
+- Reuse existing components.
+- Do not add external UI libraries.
 
-- The frontend communicates with FastAPI using REST APIs.
-- Do not hardcode API responses.
-- Handle loading, success, and error states.
-- Preserve authentication headers when calling protected endpoints.
+## Code Rules
 
-## Code Quality
-
-- Do not create duplicate functions.
-- Do not rename existing files unless necessary.
-- Keep functions small and focused.
-- Follow the existing coding style.
+- Use functional React components.
+- Use TypeScript types.
+- Avoid duplicated code.
+- Keep components small.
+- Use clear variable names.
